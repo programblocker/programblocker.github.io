@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ - Frequently Asked Questions | ProgramBlocker</title>
+<meta name="description" content="ProgramBlocker FAQ — learn how to block programs from internet or execution, activate your license, remove blocks, system requirements, troubleshooting, and more.">
+<meta name="keywords" content="programblocker faq, how to block program internet, activate license programblocker, block program execution windows, remove program block, paypal program blocker, windows firewall block, parental control faq">
+<meta name="author" content="Ari Sohandri Putra">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0000CD">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="FAQ - Frequently Asked Questions | ProgramBlocker">
+<meta property="og:description" content="Answers to common questions about ProgramBlocker — how to block programs, activate licenses, remove blocks, system requirements, troubleshooting, and more.">
+<meta property="og:url" content="">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="FAQ | ProgramBlocker">
+<meta name="twitter:description" content="Common questions about ProgramBlocker answered — setup, licensing, usage, and troubleshooting.">
+
+<!-- Canonical -->
+<link rel="canonical" href="">
+
+<!-- FAQ Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I add a program to blocklist?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Click the 'Select .EXE (Program)' button or press CTRL + O in the main interface, then select one or more .exe files. After selecting, choose 'Block Internet', 'Block Execution', or both."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does ProgramBlocker run in background all the time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Once blocks are applied, you can close the software entirely. Blocks persist without any background process running."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to activate my license after purchase?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open ProgramBlocker, click Help menu, then 'Activate License', and enter the serial key you received via email. Execution block becomes unlimited immediately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What payment methods are accepted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PayPal only. You can use credit/debit cards via PayPal guest checkout even without a PayPal account."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to remove a block from a program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Select the program from blocklist, then click 'Allow Internet' or 'Allow Execution'. Use 'Unblock All' to remove all blocks at once."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the system requirements for ProgramBlocker?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ProgramBlocker requires Windows 7, 8, 10, or 11 (32-bit or 64-bit). Administrator privileges are required to apply blocks. No additional software installation is needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I transfer my license to another PC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Your license is tied to 1 PC at a time but is fully transferable. Deactivate on your old PC and activate on the new one."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does blocking internet affect the whole system or just one program?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only the specific .exe files you block are affected. Other programs and your system internet connection remain completely unaffected."
+      }
+    }
+  ]
+}
+</script>
+
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="ProgramBlocker.css" rel="stylesheet">
+<link href="faq.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js" defer></script>
+<script defer>
+document.addEventListener('DOMContentLoaded', function() {
+  var $ = window.jQuery;
+  if (!$) return;
+  $("#NavigationBar1 .navbar a, #NavigationBar4 .navbar a").hover(function() {
+    if ($(this).hasClass('active')) return;
+    $(this).children("span").stop().fadeTo(200, 0);
+  }, function() {
+    $(this).children("span").stop().fadeTo(200, 1);
+  });
+
+  var btn = document.getElementById('mobile-menu-toggle');
+  var nav = document.getElementById('mobile-nav');
+  if (btn && nav) {
+    btn.addEventListener('click', function() {
+      var expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      nav.hidden = expanded;
+    });
+  }
+});
+</script>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="site-header" role="banner">
+  <div id="container-header">
+    <a href="/" id="logo-area" aria-label="ProgramBlocker Home">
+      <img src="images/logoweb.png" id="Image1" alt="ProgramBlocker Logo" width="34" height="34">
+      <span id="wb_Text1"><strong>Program</strong><span class="blue">Blocker</span></span>
+    </a>
+    <nav id="NavigationBar1" aria-label="Main navigation">
+      <ul class="navbar">
+        <li class="nav-item"><a href="/" aria-label="Home"><img src="images/img0011_over.gif" alt="Home"><span><img src="images/img0011.gif" alt="Home"></span></a></li>
+        <li class="nav-item"><a href="./buy.html" aria-label="Buy ProgramBlocker"><img src="images/img0012_over.gif" alt="Buy"><span><img src="images/img0012.gif" alt="Buy"></span></a></li>
+        <li class="nav-item"><a href="./faq.html" aria-label="FAQ" class="active"><img src="images/img0013_over.gif" alt="FAQ"><span><img src="images/img0013.gif" alt="FAQ"></span></a></li>
+      </ul>
+    </nav>
+    <button id="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+    <nav id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="./buy.html">Buy — $5.79</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="mailto:programblocker@gmail.com">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== MAIN ===== -->
+<main id="main-content">
+<div id="container">
+<div id="Layer4">
+
+  <!-- TAGLINE + BUY BUTTONS -->
+  <section id="faq-hero" aria-labelledby="faq-page-title">
+
+    <div id="Layer2">
+      <p id="wb_Text3"><em>Take complete command of your Windows environment. Block any application from accessing the internet or running entirely. Perfect for productivity, parental control, and system security.</em></p>
+      <div id="buy-button-top">
+        <form action="https://www.paypal.com/cgi-bin/webscr" id="PayPal2_form" method="post" target="PayPal" aria-label="Buy ProgramBlocker via PayPal">
+          <input type="hidden" name="business" value="arisohandriputra@gmail.com">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="item_name" value="ProgramBlocker License Key">
+          <input type="hidden" name="item_number" value="">
+          <input type="hidden" name="amount" value="5.79">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="return" value="">
+          <input type="hidden" name="cancel_return" value="">
+          <input type="hidden" name="undefined_quantity" value="0">
+          <input type="hidden" name="receiver_email" value="arisohandriputra@gmail.com">
+          <input type="hidden" name="no_shipping" value="1">
+          <input id="PayPal2" type="image" name="submit" src="images/x-click-but01.gif" alt="Buy Now via PayPal - Fast, Free, Secure">
+        </form>
+        <nav id="NavigationBar4" aria-label="Download navigation">
+          <ul class="navbar">
+            <li class="nav-item"><a href="ProgramBlocker_x86_64.zip" aria-label="Download ProgramBlocker"><img src="images/img0010_over.gif" alt="Download"><span><img src="images/img0010.gif" alt="Download"></span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ==================== FAQ SECTION ==================== -->
+  <section id="faq-section" aria-labelledby="faq-heading">
+    <h1 id="faq-page-title" id="faq-heading">FREQUENTLY ASKED QUESTIONS</h1>
+    <p class="section-intro">Find answers to the most common questions about ProgramBlocker — installation, blocking, licensing, troubleshooting, and more.</p>
+
+    <!-- ---- CATEGORY: GENERAL ---- -->
+    <span class="faq-category">&#9660; General</span>
+    <dl id="faq-list">
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: What is ProgramBlocker?</dt>
+        <dd class="faq-answer">A: ProgramBlocker is a powerful Windows utility that lets you block any .exe program from accessing the internet or from running entirely. It is designed for productivity, parental control, and system security — no technical knowledge required.</dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: What are the system requirements?</dt>
+        <dd class="faq-answer">A: ProgramBlocker works on:
+          <ul>
+            <li>Windows 7 / 8 / 8.1 / 10 / 11 (both 32-bit and 64-bit)</li>
+            <li>Administrator privileges (required to apply firewall rules)</li>
+            <li>No additional runtimes or frameworks needed</li>
+          </ul>
+        </dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: Does blocking a program affect other apps or my internet connection?</dt>
+        <dd class="faq-answer">A: No. Only the specific .exe files you choose to block are affected. All other programs and your overall internet connection remain completely unaffected.</dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: Is ProgramBlocker safe? Does it contain ads or malware?</dt>
+        <dd class="faq-answer">A: Yes, ProgramBlocker is completely safe. It contains no ads, no malware, no spyware, and no bundled software. It only modifies Windows Firewall rules and does not collect any personal data.</dd>
+      </div>
+
+    </dl><!-- /faq-list general -->
+
+    <!-- ---- CATEGORY: BLOCKING ---- -->
+    <span class="faq-category">&#9660; How to Block Programs</span>
+    <dl id="faq-list-blocking">
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: How do I add a program to the blocklist?</dt>
+        <dd class="faq-answer">A: Click the <strong>"Select .EXE (Program)"</strong> button (or press <code>CTRL + O</code>) in the main interface, then browse to and select one or more .exe files. After selecting, choose:
+          <ul>
+            <li><strong>Block Internet</strong> — prevents the program from accessing the internet</li>
+            <li><strong>Block Execution</strong> — prevents the program from launching at all</li>
+            <li>Or select <strong>both</strong> for maximum control</li>
+          </ul>
+        </dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: Can I block multiple programs at once?</dt>
+        <dd class="faq-answer">A: Yes. When using the file picker (CTRL + O), you can hold <code>Ctrl</code> or <code>Shift</code> to select multiple .exe files simultaneously. All selected files will be added to the blocklist in one step.</dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: What is the difference between "Block Internet" and "Block Execution"?</dt>
+        <dd class="faq-answer">A:
+          <ul>
+            <li><strong>Block Internet</strong> — The program can still run and open, but it cannot send or receive any data over the internet. This is useful for apps you want to use offline, or to stop unwanted updates and telemetry.</li>
+            <li><strong>Block Execution</strong> — The program cannot launch at all. Any attempt to open it will be silently prevented. This is useful for parental control or preventing specific software from ever running.</li>
+          </ul>
+        </dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: How do I remove a block from a program?</dt>
+        <dd class="faq-answer">A: Select the program from the blocklist, then click the appropriate button:
+          <ul>
+            <li><strong>Allow Internet</strong> — restores internet access for that program</li>
+            <li><strong>Allow Execution</strong> — allows the program to run again</li>
+            <li><strong>Unblock</strong> — removes all blocks (internet + execution) from the selected program at once</li>
+          </ul>
+        </dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: Will blocks survive a Windows restart or update?</dt>
+        <dd class="faq-answer">A: Yes. Blocks applied by ProgramBlocker use Windows Firewall rules, which persist across reboots and Windows updates. You do not need to re-apply blocks after restarting your PC.</dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: Can I block a program that is currently running?</dt>
+        <dd class="faq-answer">A: Yes. You can add a running program to the blocklist. The internet block takes effect immediately. For execution blocking, the program must be restarted — the block will apply the next time it tries to launch.</dd>
+      </div>
+
+    </dl><!-- /faq-list-blocking -->
+
+    <!-- ---- CATEGORY: LICENSE ---- -->
+    <span class="faq-category">&#9660; Licensing &amp; Purchase</span>
+    <dl id="faq-list-license">
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: How do I activate my license after purchase?</dt>
+        <dd class="faq-answer">A: Follow these steps:
+          <ol>
+            <li>Open ProgramBlocker</li>
+            <li>Click <strong>Help</strong> in the menu bar</li>
+            <li>Select <strong>"Activate License"</strong></li>
+            <li>Enter the serial key you received via email</li>
+          </ol>
+          Execution block becomes unlimited immediately upon activation.
+        </dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: I didn't receive my license key. What should I do?</dt>
+        <dd class="faq-answer">A: Your license key is sent automatically to the email address linked to your PayPal account immediately after payment is confirmed. If you did not receive it:
+          <ul>
+            <li>Check your <strong>spam or junk folder</strong></li>
+            <li>Make sure you are checking the email address associated with your PayPal account</li>
+            <li>If still not found, contact us at <a href="mailto:programblocker@gmail.com">programblocker@gmail.com</a> with your PayPal transaction ID and we will resend it promptly</li>
+          </ul>
+        </dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: What payment methods are accepted?</dt>
+        <dd class="faq-answer">A: All payments are processed through <strong>PayPal</strong>. Accepted methods include:
+          <ul>
+            <li>PayPal balance</li>
+            <li>Credit card (Visa, Mastercard, American Express, Discover)</li>
+            <li>Debit card</li>
+            <li>PayPal Guest Checkout — <em>no PayPal account required</em></li>
+          </ul>
+        </dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: How many PCs can I use one license on?</dt>
+        <dd class="faq-answer">A: Each license is valid for <strong>1 PC at a time</strong>. However, the license is fully <strong>transferable</strong> — if you upgrade or change computers, simply deactivate on the old PC and activate on the new one. Contact support if you need assistance with a transfer.</dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: Does the license expire?</dt>
+        <dd class="faq-answer">A: No. The license is a <strong>one-time, lifetime purchase</strong>. There are no subscription fees, no annual renewals, and no expiry date. You pay once and own it forever, including all future minor updates.</dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: Can I get a refund?</dt>
+        <dd class="faq-answer">A: If you experience issues with ProgramBlocker that cannot be resolved through support, please contact us at <a href="mailto:programblocker@gmail.com">programblocker@gmail.com</a> and we will work with you to find a fair resolution. We want every customer to be satisfied with their purchase.</dd>
+      </div>
+
+    </dl><!-- /faq-list-license -->
+
+    <!-- ---- CATEGORY: TRIAL ---- -->
+    <span class="faq-category">&#9660; Trial Version</span>
+    <dl id="faq-list-trial">
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: What can I do with the free trial?</dt>
+        <dd class="faq-answer">A: The trial version gives you full access to:
+          <ul>
+            <li><strong>Block Internet</strong> — unlimited, no restrictions</li>
+            <li><strong>Block Execution</strong> — up to <strong>10 free uses</strong></li>
+          </ul>
+          Internet blocking is always free and unlimited, even in the trial. A license is only needed if you want to use execution blocking more than 10 times.
+        </dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: Does the trial have a time limit?</dt>
+        <dd class="faq-answer">A: No. The trial does not expire by time. It is limited only by the number of execution block uses (10 times). Internet blocking in the trial never expires.</dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: Can I upgrade from the trial to the full version?</dt>
+        <dd class="faq-answer">A: Yes. You do not need to reinstall anything. Simply <a href="./buy.html">purchase a license</a>, then activate it inside ProgramBlocker via <em>Help → Activate License</em>. Your existing blocks and settings are preserved.</dd>
+      </div>
+
+    </dl><!-- /faq-list-trial -->
+
+    <!-- ---- CATEGORY: TROUBLESHOOTING ---- -->
+    <span class="faq-category">&#9660; Troubleshooting</span>
+    <dl id="faq-list-trouble">
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: The block doesn't seem to be working. What should I check?</dt>
+        <dd class="faq-answer">A: If a block does not appear to work, try the following:
+          <ul>
+            <li>Make sure you launched ProgramBlocker <strong>as Administrator</strong> (right-click → Run as Administrator)</li>
+            <li>Confirm that Windows Firewall is <strong>enabled</strong> on your system — ProgramBlocker uses it to enforce internet blocks</li>
+            <li>Verify that you blocked the correct .exe file — some programs use multiple executables</li>
+            <li>Restart the target program after applying the block</li>
+            <li>If issues persist, contact <a href="mailto:programblocker@gmail.com">programblocker@gmail.com</a></li>
+          </ul>
+        </dd>
+      </div>
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: A blocked program is still accessing the internet. Why?</dt>
+        <dd class="faq-answer">A: This can happen if the program uses a different .exe or a helper process to connect. Some applications launch a separate updater or service executable. Try:
+          <ul>
+            <li>Identifying all related .exe files for that application (check Task Manager while the program is running)</li>
+            <li>Blocking each related executable individually</li>
+          </ul>
+        </dd>
+      </div>
+
+
+      <div class="faq-item">
+        <dt class="faq-question">Q: ProgramBlocker won't open or crashes on startup. What should I do?</dt>
+        <dd class="faq-answer">A: Try the following steps:
+          <ul>
+            <li>Right-click ProgramBlocker and select <strong>"Run as Administrator"</strong></li>
+            <li>Make sure you are running a supported version of Windows (7, 8, 10, or 11)</li>
+            <li>Try re-downloading the latest version from the official website</li>
+            <li>Temporarily disable antivirus to check if it is blocking the app</li>
+            <li>If the issue continues, email us at <a href="mailto:programblocker@gmail.com">programblocker@gmail.com</a> with details about your Windows version and the error message (if any)</li>
+          </ul>
+        </dd>
+      </div>
+
+    </dl><!-- /faq-list-trouble -->
+
+    <div id="WrapText1" role="note">
+      <p>&#128161; <strong>Tip:</strong> Most issues are resolved by running ProgramBlocker as Administrator. If you continue to experience problems or have a question not listed here, please contact us at <a href="mailto:programblocker@gmail.com">programblocker@gmail.com</a> — we typically respond within 1 business day.</p>
+    </div>
+
+  </section><!-- /#faq-section -->
+
+  <!-- CONTACT -->
+  <section id="contact-section" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact &amp; Support</h2>
+    <div id="contact-content">
+      <p>Can't find the answer you're looking for? We're happy to help with any question — whether it's a pre-sales inquiry, activation issue, or a technical problem.</p>
+      <p>&#128231; <strong>Email:</strong> <a href="mailto:programblocker@gmail.com">programblocker@gmail.com</a></p>
+      <p>Licensed users receive <strong>priority support</strong> with responses guaranteed within 24 hours. Pre-sales and general inquiries are also welcome — we typically respond within 1 business day.</p>
+    </div>
+  </section>
+
+</div><!-- /#Layer4 -->
+</div><!-- /#container -->
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer id="Layer3" role="contentinfo">
+  <div id="footer-inner">
+    <p id="wb_Text14"><small>Copyright &copy; 2015&ndash;2026 Ari Sohandri Putra. All Rights Reserved.</small></p>
+    <p class="footer-links"><a href="/">Home</a> &middot; <a href="./buy.html">Buy</a> &middot; <a href="./faq.html">FAQ</a> &middot; <a href="./license.html">License</a> &middot; <a href="mailto:programblocker@gmail.com">Contact</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

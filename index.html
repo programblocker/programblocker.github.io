@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ProgramBlocker — Take Full Control of Every Program on Your Windows PC</title>
+<meta name="description" content="ProgramBlocker is a lightweight Windows utility that lets you block any program from accessing the internet or running at all — in seconds, with no technical knowledge required. Perfect for parental control, privacy, and security.">
+<meta name="keywords" content="program blocker, block internet access windows, block program execution, parental control software, windows firewall utility, block app internet, prevent program running, privacy tool windows">
+<meta name="author" content="Ari Sohandri Putra">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1a56db">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="ProgramBlocker — Full Control Over Programs & Internet on Windows">
+<meta property="og:description" content="Block any Windows program from accessing the internet or running entirely. No technical knowledge needed. One-time $5.79 license.">
+<meta property="og:image" content="images/screenshotprogram.PNG">
+<meta property="og:url" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ProgramBlocker — Full Control Over Programs & Internet">
+<meta name="twitter:description" content="Block any program from internet access or execution on Windows. Fast, simple, no background process.">
+<meta name="twitter:image" content="images/screenshotprogram.PNG">
+
+<link rel="canonical" href="">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ProgramBlocker",
+  "description": "A Windows utility that gives you direct control over which programs can access the internet and which programs can run.",
+  "applicationCategory": "SecurityApplication",
+  "operatingSystem": "Windows",
+  "offers": {
+    "@type": "Offer",
+    "price": "5.79",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Ari Sohandri Putra",
+    "email": "programblocker@gmail.com"
+  },
+  "screenshot": "images/screenshotprogram.PNG"
+}
+</script>
+
+<link href="ProgramBlocker.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js" defer></script>
+<script defer>
+document.addEventListener('DOMContentLoaded', function() {
+  var $ = window.jQuery;
+  if (!$) return;
+  $("#NavigationBar1 .navbar a, #NavigationBar3 .navbar a, #NavigationBar4 .navbar a").hover(function() {
+    if ($(this).hasClass('active')) return;
+    $(this).children("span").stop().fadeTo(200, 0);
+  }, function() {
+    $(this).children("span").stop().fadeTo(200, 1);
+  });
+
+  // Mobile nav
+  var btn = document.getElementById('mobile-menu-toggle');
+  var nav = document.getElementById('mobile-nav');
+  if (btn && nav) {
+    btn.addEventListener('click', function() {
+      var expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      nav.hidden = expanded;
+    });
+  }
+});
+</script>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="site-header" role="banner">
+  <div id="container-header">
+    <a href="/" id="logo-area" aria-label="ProgramBlocker Home">
+      <img src="images/logoweb.png" id="Image1" alt="ProgramBlocker Logo" width="34" height="34">
+      <span id="wb_Text1"><strong>Program</strong><span class="blue">Blocker</span></span>
+    </a>
+    <nav id="NavigationBar1" aria-label="Main navigation">
+      <ul class="navbar">
+        <li class="nav-item"><a href="/" aria-label="Home"><img src="images/img0001_over.gif" alt="Home"><span><img src="images/img0001.gif" alt="Home"></span></a></li>
+        <li class="nav-item"><a href="./buy.html" aria-label="Buy ProgramBlocker"><img src="images/img0003_over.gif" alt="Buy"><span><img src="images/img0003.gif" alt="Buy"></span></a></li>
+        <li class="nav-item"><a href="./faq.html" aria-label="FAQ"><img src="images/img0004_over.gif" alt="FAQ"><span><img src="images/img0004.gif" alt="FAQ"></span></a></li>
+      </ul>
+    </nav>
+    <button id="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+    <nav id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="./buy.html">Buy — $5.79</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="mailto:programblocker@gmail.com">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== MAIN ===== -->
+<main id="main-content">
+<div id="container">
+<div id="Layer4">
+
+  <!-- HERO -->
+  <section id="hero-section" aria-labelledby="hero-heading">
+
+    <div id="Layer2">
+      <p id="wb_Text3"><em>Take complete command of your Windows environment. Block any application from accessing the internet or running entirely — with zero background process, zero performance impact.</em></p>
+      <div id="buy-button-top">
+        <form action="https://www.paypal.com/cgi-bin/webscr" id="PayPal2_form" method="post" target="PayPal" aria-label="Buy ProgramBlocker via PayPal">
+          <input type="hidden" name="business" value="arisohandriputra@gmail.com">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="item_name" value="ProgramBlocker License Key">
+          <input type="hidden" name="item_number" value="">
+          <input type="hidden" name="amount" value="5.79">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="return" value="">
+          <input type="hidden" name="cancel_return" value="">
+          <input type="hidden" name="undefined_quantity" value="0">
+          <input type="hidden" name="receiver_email" value="arisohandriputra@gmail.com">
+          <input type="hidden" name="no_shipping" value="1">
+          <input id="PayPal2" type="image" name="submit" src="images/x-click-but01.gif" alt="Buy Now via PayPal">
+        </form>
+        <nav id="NavigationBar4" aria-label="Download navigation">
+          <ul class="navbar">
+            <li class="nav-item"><a href="ProgramBlocker_x86_64.zip" aria-label="Download ProgramBlocker trial"><img src="images/img0005_over.gif" alt="Download Free Trial"><span><img src="images/img0005.gif" alt="Download Free Trial"></span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div id="wb_Text2">
+      <h1 id="hero-heading">Take Full Control of Every Program on Your PC</h1>
+      <p><strong>ProgramBlocker</strong> is a powerful Windows utility designed to give you direct, no-nonsense control over which programs can access the internet and which programs can run at all — in just a few clicks, with no technical knowledge required. Whether you want to <strong class="highlight">cut off a game's online connection, stop unwanted software from launching</strong>, or completely lock down a specific application, ProgramBlocker puts you in command instantly.</p>
+      <p>Unlike complex firewall configurations or group policy edits, ProgramBlocker works through a clean, intuitive interface that any user can understand. Select a program, choose your block type, and it's done — the block survives reboots, updates, and everything in between, with absolutely <strong>zero background processes running</strong>.</p>
+    </div>
+
+    <div id="WrapText1" role="note">
+      <p>💡 <strong>Did you know?</strong> Many popular programs silently send telemetry data, to verify licenses, or auto-update themselves without ever asking for your permission. ProgramBlocker lets you <strong>stop all of that — permanently.</strong></p>
+    </div>
+
+    <figure id="wb_Image2">
+      <img src="images/screenshotprogram.PNG" id="Image2" alt="ProgramBlocker main interface showing a list of programs with Internet Block and Execution Block toggle controls" width="526" height="415" loading="lazy">
+      <figcaption>ProgramBlocker main interface — select any .exe and apply blocks instantly</figcaption>
+    </figure>
+
+  </section>
+
+  <!-- KEY FEATURES -->
+  <section id="features-section" aria-labelledby="features-heading">
+    <h2 id="features-heading">Key Features</h2>
+    <div class="features-grid">
+      <article id="wb_Text7">
+        <div class="feature-icon">🔥</div>
+        <h3>Internet Block</h3>
+        <p>Completely cut off any program's internet access — both inbound and outbound traffic. Eliminates unwanted auto-updates, telemetry reporting, license call-homes, and any form of data leakage from your applications.</p>
+      </article>
+      <article id="wb_Text8">
+        <div class="feature-icon">🚫</div>
+        <h3>Execution Block</h3>
+        <p>Prevent any program from launching at all — it cannot start, cannot run in the background, and cannot be triggered by other software. Ideal for parental control, software lockdowns, and enterprise workstation security.</p>
+      </article>
+      <article id="wb_Text_new1">
+        <div class="feature-icon">⚡</div>
+        <h3>Zero Performance Impact</h3>
+        <p>Once blocks are applied, ProgramBlocker does not need to remain running. There are no background services, no memory usage, and no CPU overhead. Blocks are enforced at the system level and persist indefinitely.</p>
+      </article>
+      <article id="wb_Text_new2">
+        <div class="feature-icon">🔄</div>
+        <h3>Fully Reversible</h3>
+        <p>Every block you apply can be removed at any time with a single click. ProgramBlocker maintains a persistent, editable blocklist so you always stay in control — no permanent changes, no registry mess, no risk.</p>
+      </article>
+      <article id="wb_Text_new3">
+        <div class="feature-icon">🛡️</div>
+        <h3>System-Level Filtering</h3>
+        <p>ProgramBlocker uses Windows Firewall rules and execution policies at the system level — not simple host file tricks. This means your blocks are robust, tamper-resistant, and effective even when programs try to bypass them.</p>
+      </article>
+      <article id="wb_Text_new4">
+        <div class="feature-icon">👨‍👩‍👧</div>
+        <h3>Parental Control Ready</h3>
+        <p>Restrict children's access to specific games, social media apps, or any software you choose — without complicated parental control suites. Block internet access while still allowing offline use, or block execution entirely.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="explanation-section" aria-labelledby="explanation-heading">
+    <h2 id="explanation-heading">How ProgramBlocker Works</h2>
+    <div id="wb_Text10">
+      <p>Unlike simple host file edits or superficial app blockers, <strong>ProgramBlocker</strong> integrates directly with Windows' own system-level filtering mechanisms to ensure that your targeted applications stay blocked — no matter what. The software maintains a clean separation between two distinct block types: <strong>Internet Block</strong> and <strong>Execution Block</strong>, giving you granular control that most tools simply don't offer.</p>
+      <p>For example, you can block a game from accessing its online servers while still allowing it to run in offline mode — great for preventing in-game purchases or online matchmaking without disabling the game entirely. Alternatively, you can lock down an application completely so it cannot run under any circumstances, which is ideal for parental control environments or shared workstations.</p>
+      <p>Every block is applied immediately upon confirmation and persists through system reboots and application updates. ProgramBlocker maintains a reliable blocklist that survives even when the blocked software attempts to update itself or reinstall. And because all enforcement is handled at the OS level, ProgramBlocker itself doesn't need to run in the background — meaning <strong>zero CPU usage, zero memory footprint, and zero performance impact</strong> once your blocks are set.</p>
+      <p>Whether you are a parent managing your children's screen time and app access, an IT administrator securing employee workstations, a developer testing network behavior, or simply a privacy-conscious individual who doesn't want applications reporting back to their servers — ProgramBlocker gives you the control you need, delivered through an interface anyone can use in under a minute.</p>
+      <p><strong>Supported on:</strong> Windows 7, 8, 10, and 11 (32-bit and 64-bit).</p>
+    </div>
+  </section>
+
+  <!-- WHO IS IT FOR -->
+  <section id="usecases-section" aria-labelledby="usecases-heading">
+    <h2 id="usecases-heading">Who Uses ProgramBlocker?</h2>
+    <div class="usecase-grid">
+      <div class="usecase-item">
+        <strong>👨‍👩‍👧 Parents</strong>
+        <p>Block children's games from accessing online content, prevent social media apps from running during homework hours, and maintain control over screen time without complex parental control software.</p>
+      </div>
+      <div class="usecase-item">
+        <strong>🏢 IT Professionals</strong>
+        <p>Lock down workstations to prevent unauthorized software from running or phoning home. Enforce security policies without managing complex group policies or enterprise firewall rules.</p>
+      </div>
+      <div class="usecase-item">
+        <strong>🔒 Privacy-Conscious Users</strong>
+        <p>Stop telemetry-heavy applications from sending your usage data back to their servers. Block license verification calls, auto-updaters, and any software you don't trust with your network access.</p>
+      </div>
+      <div class="usecase-item">
+        <strong>🎮 Gamers</strong>
+        <p>Force games into offline mode, prevent unwanted background updates during gameplay, or block multiplayer features while keeping single-player functionality fully intact.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRIAL VS LICENSED -->
+  <section id="comparison-section" aria-labelledby="comparison-heading">
+    <h2 id="comparison-heading">Trial vs Full Licensed Version</h2>
+    <div id="comparison-table-wrapper">
+      <table id="comparison-table" aria-label="Comparison of Trial and Licensed versions">
+        <thead>
+          <tr>
+            <th scope="col">Feature</th>
+            <th scope="col">Trial Version</th>
+            <th scope="col">Licensed — $5.79</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Block Internet Access</td>
+            <td class="ok">✓ Unlimited</td>
+            <td class="ok">✓ Unlimited</td>
+          </tr>
+          <tr>
+            <td>Block Program Execution</td>
+            <td class="limited">10 uses only</td>
+            <td class="ok">✓ Unlimited</td>
+          </tr>
+          <tr>
+            <td>Priority Email Support</td>
+            <td class="no">✗ Not included</td>
+            <td class="ok">✓ Within 24 hours</td>
+          </tr>
+          <tr>
+            <td>Lifetime License (One PC)</td>
+            <td class="no">✗ Not included</td>
+            <td class="ok">✓ Lifetime, transferable</td>
+          </tr>
+          <tr>
+            <td>All Future Minor Updates</td>
+            <td class="no">✗ Not included</td>
+            <td class="ok">✓ Free, forever</td>
+          </tr>
+          <tr>
+            <td>No Subscription or Recurring Fees</td>
+            <td class="no">✗ —</td>
+            <td class="ok">✓ One-time payment only</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">* Trial version allows unlimited internet blocking. The "Block Execution" feature is limited to 10 uses during the trial period. A license is required to unlock unlimited execution blocking.</p>
+
+    <div id="buy-button-bottom">
+      <nav id="NavigationBar3" aria-label="Buy navigation">
+        <ul class="navbar">
+          <li class="nav-item"><a href="ProgramBlocker_x86_64.zip" aria-label="Buy ProgramBlocker"><img src="images/img0008_over.gif" alt="Buy Now"><span><img src="images/img0008.gif" alt="Buy Now"></span></a></li>
+        </ul>
+      </nav>
+      <form action="https://www.paypal.com/cgi-bin/webscr" id="PayPal1_form" method="post" target="PayPal" aria-label="Buy ProgramBlocker via PayPal">
+        <input type="hidden" name="business" value="arisohandriputra@gmail.com">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="item_name" value="ProgramBlocker License Key">
+        <input type="hidden" name="item_number" value="">
+        <input type="hidden" name="amount" value="5.79">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="return" value="">
+        <input type="hidden" name="cancel_return" value="">
+        <input type="hidden" name="undefined_quantity" value="0">
+        <input type="hidden" name="receiver_email" value="arisohandriputra@gmail.com">
+        <input type="hidden" name="no_shipping" value="1">
+        <input id="PayPal1" type="image" name="submit" src="images/x-click-but01.gif" alt="Buy Now via PayPal">
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact-section" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact &amp; Support</h2>
+    <div id="contact-content">
+      <p>Have a question before purchasing, experiencing an issue, or need help activating your license? We're here to help. Licensed users receive priority support with responses within 24 hours.</p>
+      <p>📧 <strong>Email:</strong> <a href="mailto:programblocker@gmail.com">programblocker@gmail.com</a></p>
+      <p>Please include your order details or PayPal transaction ID when contacting support for a license-related issue. For general pre-sales questions, feel free to write anytime — we typically respond within 1 business day.</p>
+    </div>
+  </section>
+
+</div><!-- /#Layer4 -->
+</div><!-- /#container -->
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer id="Layer3" role="contentinfo">
+  <div id="footer-inner">
+    <p id="wb_Text14"><small>Copyright &copy; 2015&ndash;2026 Ari Sohandri Putra. All Rights Reserved.</small></p>
+    <p class="footer-links"><a href="/">Home</a> &middot; <a href="./buy.html">Buy</a> &middot; <a href="./faq.html">FAQ</a> &middot; <a href="./license.html">License</a> &middot; <a href="mailto:programblocker@gmail.com">Contact</a></p>
+  </div>
+</footer>
+
+<style>
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+</style>
+
+</body>
+</html>
