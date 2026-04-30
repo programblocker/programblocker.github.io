@@ -23,6 +23,27 @@
   --radius:     6px;
   --shadow:     0 1px 4px rgba(0,0,0,0.08);
 }
+.video-guide {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+.video-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.video-wrapper::after {
+  content: "▶";
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
 
 /* === RESET === */
 *, *::before, *::after { box-sizing: border-box; }
