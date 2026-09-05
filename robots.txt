@@ -1,0 +1,21 @@
+# robots.txt for ProgramBlocker
+# https://programblocker.github.io/
+
+User-agent: *
+Allow: /
+
+# Block crawling of the downloadable installer (large binary, no SEO value)
+Disallow: /ProgramBlockerPRO_v2.8.1_x86_64.exe$
+
+# Allow crawling of all static assets
+Allow: /style.css
+Allow: /main.js
+Allow: /favicon.ico
+Allow: /logo-64.png
+Allow: /logo-128.png
+Allow: /apple-touch-icon.png
+Allow: /og-image.png
+Allow: /src/
+
+# Sitemap location
+Sitemap: https://programblocker.github.io/sitemap.xml

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
+
+  <url>
+    <loc>https://programblocker.github.io/index.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://programblocker.github.io/og-image.png</image:loc>
+      <image:title>ProgramBlocker Pro logo</image:title>
+      <image:caption>ProgramBlocker Pro - Anti Bypass blocker for Windows</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://programblocker.github.io/src/screenshot_main.PNG</image:loc>
+      <image:title>ProgramBlocker main menu screenshot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://programblocker.github.io/src/screenshot_block.PNG</image:loc>
+      <image:title>ProgramBlocker block options window screenshot</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://programblocker.github.io/quicklinks05092601.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://programblocker.github.io/quicklinks05092602.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://programblocker.github.io/quicklinks05092603.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://programblocker.github.io/quicklinks05092604.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://programblocker.github.io/quicklinks05092605.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://programblocker.github.io/quicklinks05092606.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://programblocker.github.io/quicklinks05092606priv.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://programblocker.github.io/quicklinks05092607.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://programblocker.github.io/quicklinks05092608.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://programblocker.github.io/license.htm</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

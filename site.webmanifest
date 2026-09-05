@@ -1,0 +1,37 @@
+{
+  "name": "ProgramBlocker Pro",
+  "short_name": "ProgramBlocker",
+  "description": "Full control over programs, internet, and execution. Anti Bypass: Rename, Move, Delete.",
+  "start_url": "./index.htm",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#CCCCCC",
+  "theme_color": "#CCCCCC",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo-64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["security", "utilities", "productivity"]
+}
